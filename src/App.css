@@ -1,0 +1,29 @@
+
+
+.flex nav{
+  background-color: aqua;
+  border: #0c4757;
+}
+
+flex container
+.flex-nav ul {
+  border: 0px solid blue;
+  list-style: inside;
+  margin: 0;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media all and (max-width:1000px) {
+  .flex-nav ul li{
+    width: 50%;
+  }
+  .flex-nav .social{
+    width: auto;
+  }
+}
+.App{
+  height: auto;
+}
